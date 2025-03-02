@@ -1,0 +1,272 @@
+/* Import Google Font */
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+/* General Styles */
+body {
+  padding: 0;
+  margin: 0;
+  background: #f4f4f4;
+  font-family: "Raleway", sans-serif;
+}
+
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f4f4f4;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f97300;
+  border-radius: 10px;
+}
+
+/* Navbar */
+.navbar {
+  background: #f97300 !important;
+  padding: 0.5rem 2rem;
+  font-size: 1.25rem;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #fff !important;
+}
+
+.nav-link:hover {
+  background: #fff;
+  color: #f97300 !important;
+  border-radius: 5px;
+}
+
+.navbar-toggler {
+  background: #fff !important;
+}
+
+/* Header */
+.header {
+  position: relative;
+  background: url("images/headerback.jpg") no-repeat center center/cover;
+  height: 100vh;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(244, 244, 244, 0.79);
+}
+
+.description {
+  position: absolute;
+  top: 35%;
+  right: 0;
+  margin: auto;
+  padding: 2em;
+}
+
+.description h1 {
+  color: #f97300;
+  font-size: 3rem;
+}
+
+.description p {
+  color: #666;
+  font-size: 1.5rem;
+  width: 50%;
+  line-height: 1.5;
+}
+
+.description button {
+  border: 1px solid #f97300;
+  background: #f97300;
+  color: #fff;
+  font-size: 1.25rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+/* About Section */
+.about {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.about h1 {
+  color: #f97300;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.about img {
+  width: 60%;
+  max-width: 300px;
+  border-radius: 50%;
+}
+
+.about .desc {
+  padding: 2rem;
+  border-left: 4px solid #10828c;
+  text-align: left;
+}
+
+.about .desc h3 {
+  font-size: 2rem;
+  color: #10828c;
+}
+
+.about .desc p {
+  font-size: 1.25rem;
+  color: #555;
+  line-height: 2rem;
+}
+
+/* Portfolio Section */
+.portfolio {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.portfolio h1 {
+  color: #f97300;
+  margin-bottom: 2rem;
+}
+
+.portfolio img {
+  height: 12rem;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+/* Blog Section */
+.blog {
+  text-align: center;
+  margin: 4rem 0;
+  padding: 0 100px;
+}
+
+.blog h1 {
+  color: #f97300;
+  margin-bottom: 2rem;
+}
+
+.blog .card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.blog .card img {
+  width: 100%;
+  height: 12rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.blog .card-title {
+  color: #f97300;
+}
+
+/* Team Section */
+.team {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.team h1 {
+  color: #f97300;
+  margin-bottom: 2rem;
+}
+
+.team .item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.team .des {
+  background: #f97300;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  transition: 0.3s;
+}
+
+.team .item:hover .des {
+  background: rgba(249, 115, 0, 0.7);
+  padding: 2rem;
+}
+
+/* Contact Form */
+.contact-form {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.contact-form h1 {
+  color: #f97300;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.contact-form .form-control {
+  font-size: 1.2rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.contact-form .btn-secondary {
+  background: #f97300;
+  color: white;
+  font-size: 1.25rem;
+  padding: 0.75rem;
+  border-radius: 5px;
+}
+
+.contact-form .btn-secondary:hover {
+  background: #d85b00;
+}
+
+.about_photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about img {
+    width: 80%;
+  }
+  .description p {
+    width: 100%;
+    font-size: 1.25rem;
+  }
+  .portfolio img,
+  .blog .card img {
+    height: 10rem;
+  }
+  .team .item {
+  width: 60%;
+}
+.team_row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+}
