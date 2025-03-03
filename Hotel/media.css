@@ -1,0 +1,425 @@
+/*@media (max-width:1860px) {
+    .card1 img {
+        width: 100%;
+        height: 12vh;
+    } 
+
+    #sec2 {
+        height: 100%;
+    }
+
+    .logo img {
+        width: 13.6vw;
+    }
+
+    nav button {
+        font-size: 1.5vw;
+    }
+
+    nav ul {
+        font-size: 1.5vw;
+    }
+
+    header section #small__text {
+        font-size: 1.5vw;
+    }
+
+    .chhotu__box .cla1 {
+        font-size: 2vw;
+        color: #E82574;
+    }
+
+    .chhotu__box .cla2 {
+        font-size: 2vw;
+        color: #E82574;
+    }
+
+    .chhotu__box .cal3 {
+        font-size: 2vw;
+        color: #E82574;
+    }
+
+    .card1 {
+        height: 32rem;
+    }
+
+}*/
+
+@media (max-width:1472px) {
+    #sec1 {
+        height: 70vw;
+    }
+
+    #sec4 {
+        height: 75vw;
+    }
+
+    #first {
+        height: 50vw;
+    }
+
+    #second #info {
+        width: 28vw;
+
+    }
+
+}
+
+@media (max-width:1196px) {
+    #sec2 #be-iteams {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+    }
+
+
+
+    #cards {
+        display: flex;
+        margin: 3vw -1vw;
+        /* justify-content: center; */
+        align-items: center;
+    }
+
+    .card1 img {
+        width: 100%;
+        height: 22vh;
+        object-fit: cover;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    #second #info {
+        width: 32vw;
+    }
+
+}
+
+@media (max-width:1064px) {
+    .chhotu__box {
+        height: 12vw;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 1vw;
+    }
+
+    #sec1 {
+        margin-top: 12vw;
+    }
+
+    .mainLast_div p {
+        font-size: 85%;
+        width: 88%;
+    }
+
+    .para9 {
+        line-height: 157%;
+        opacity: 0.5;
+        font-size: 82%;
+    }
+}
+
+@media (max-width:950px) {
+    .logo img {
+        width: 22vw;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav button {
+        font-size: 1.5vw;
+        display: none;
+    }
+
+    .menubar {
+        display: block;
+        position: relative;
+        font-size: 3.5vw;
+    }
+
+    header nav {
+        gap: 67vw;
+    }
+
+    header section #small__text {
+        font-size: 3vw;
+    }
+
+    header section #big__text {
+        font-size: 6vw;
+        line-height: 6.5vw;
+        margin-top: 4.5vw;
+    }
+
+    header {
+        height: 65vw;
+    }
+
+    .chhotu__box {
+        top: 56vw;
+    }
+
+    #sec1 {
+        justify-content: center;
+        align-items: center;
+    }
+
+    #sec1 .main__box {
+        width: 88%;
+    }
+
+    .text__box1 {
+        width: 48vw;
+    }
+
+    #sec1 img {
+        width: 92%;
+    }
+
+    #sec1 .box h2 {
+        width: 30vw;
+
+    }
+
+    .main__box .box p {
+        width: 49vw;
+        font-size: 2vw;
+    }
+
+    .chhotu__box {
+        width: 81%;
+        left: 11vw;
+        height: 13%;
+    }
+
+    .chhotu__box button {
+        font-size: 1.9vw;
+    }
+
+    #cards {
+        height: 44vw;
+        flex-wrap: wrap;
+    }
+
+    .card1 {
+        width: 39.5%;
+        margin: 4vw;
+
+    }
+
+    #sec2 {
+        align-items: baseline;
+    }
+
+    #sec2 #be-iteams {
+        /* width: 100vw; */
+    }
+
+    #textt {
+        margin: 0vw 3vw;
+    }
+
+    #second #info {
+        width: 34vw;
+    }
+
+    .mainLast_div img {
+        width: 68%;
+        margin: 18px 0px;
+    }
+
+    .last__info h4 {
+        font-size: 1.6vw;
+    }
+
+    #sec5 {
+        height: 70%;
+    }
+    header nav {
+        background-color: #E82574;
+        height: 15%;
+    }
+    .logo img {
+        width: 22vw;
+    }
+    .menubar {
+        color: white;
+        font-size: 4.5vw;
+    }
+    .inpoiteam {
+        display: flex;
+        flex-wrap: wrap;
+        width: 81%;
+        justify-content: center;
+        align-items: center;
+        gap: 2vw;
+    }
+}
+
+@media (max-width:917px) {
+    #second #info {
+        width: 40vw;
+    }
+
+.chhotu__box .cla1 {
+    font-size: 145%;
+    color: #E82574;
+}
+
+    .chhotu__box .cla2 {
+        font-size: 145%;
+        color: #E82574;
+    }
+
+    .chhotu__box .cla3 {
+        font-size: 1.8vw;
+    }
+
+    .last__info {
+        width: 33%;
+        height: 37%;
+    }
+
+    #help_support {
+        height: 82%;
+        gap: 6% 12%;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+
+}
+
+@media (max-width:755px) {
+    .para9 {
+        line-height: 2.5vw;
+    }
+
+    #text_items .atm {
+        margin: -4px 2vw;
+    }
+
+    #text_items ul li {
+        margin: 8% 7%;
+        font-size: 2vw;
+    }
+
+    #second #info {
+        width: 50vw;
+    }
+    .inpoiteam {
+        gap: 4vw;
+    }
+    .packeg {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1vw;
+        /* margin-left: 8vw; */
+    }
+    .chhotu__box button {
+    font-size: 2.9vw;
+    margin-left: 2vw;
+}
+
+    .chhotu__box {
+        height: 20vw;
+        top: 55vw;
+    }
+
+}
+
+@media (max-width: 575px){
+header nav {
+    background-color: #E82574;
+    height: 20%;
+}
+.logo img {
+    width: 22vw;
+}
+.menubar {
+    color: white;
+    font-size: 4.5vw;
+}
+header section #big__text {
+    margin-top: 15.5vw;
+}
+header section #small__text {
+    margin-top: 12vw;
+}
+.chhotu__box {
+    width: 92%;
+    left: 4vw;
+    height: 25vw;
+    top: 52vw;
+}
+.inpoiteam {
+    width: 66%;
+    justify-content: flex-start;
+    margin-left: 16vw;
+    gap: 5vw;
+}
+}
+
+@media (max-width:500px) {
+    header {
+        height: 93%;
+    }
+    header nav {
+        height: 11%;
+    }
+    header section #small__text {
+        margin-top: 22vw;
+    }
+    header section #big__text {
+        margin-top: 32vw;
+    width: 77vw;
+    font-size: 12vw;
+    line-height: 13vw;
+    }
+    .chhotu__box {
+        top: 115vw;
+    height: 40vw;
+    }
+    .inpoiteam {
+        margin-left: 10vw;
+    width: 29%;
+    gap: 3vw;
+    }
+    .main__box .box p {
+        font-size: 2.5vw;
+    }
+    #sec1 button {
+        font-size:3vw ;
+    }
+}
+  
+  /* Laptops (large devices) */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    #sec2 {
+      height: 100%;
+    }
+  
+    #text_items ul li {
+      margin: 8% 4%;
+    }
+  }
+
+  @media (max-width: 700px){
+
+    #explor > h1 {
+        font-size: 3.5vw;
+    }
+    #explor > div {
+        font-size: 3vw;
+    }
+    #second #info {
+        width: 42vw;
+        display: none;
+    }
+  }
